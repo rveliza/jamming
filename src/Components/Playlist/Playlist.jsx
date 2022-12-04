@@ -7,7 +7,7 @@ class Playlist extends React.Component {
         return(
             <div className="Playlist">
                 <TrackList />
-                <button class="Playlist-save">SAVE TO SPOTIFY</button>
+                <button className="Playlist-save">SAVE TO SPOTIFY</button>
             </div>
         );
     }
